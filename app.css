@@ -1,0 +1,65 @@
+/*-------------Layout-----------------*/
+
+html, body {
+  height:100%;
+  margin: 0;
+  overflow-y:hidden;
+}
+
+@media only screen and (max-width:1200px){
+  html, body{
+    overflow-y:scroll;
+  }
+
+}
+
+.containment {
+  background-image: url("none");
+  background-position: 0px 0px;
+}
+
+.box {
+  height:50vh;
+}
+
+
+#p-two {
+  display:block;
+  margin:30px auto;
+}
+
+#p-six {
+  display:block;
+  margin:40px auto;
+}
+
+
+/*-----------Typography----------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Rokkitt);
+
+#bio h2 {
+  display:block;
+  margin:auto;
+  text-align:center;
+  font-family: 'Rokkitt', serif;
+
+}
+
+#bio p {
+  display:block;
+  margin:auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+.row img {
+  visibility: hidden;
+}
+
+#bio {
+  visibility: hidden;
+}
+
