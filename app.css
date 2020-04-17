@@ -39,10 +39,10 @@ html, body {
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Rokkitt);
 
-#bio h2 {
+#bio h4 {
   display:block;
   margin:auto;
-  text-align:center;
+  text-align: justify;
   font-family: 'Rokkitt', serif;
 
 }
@@ -51,7 +51,7 @@ html, body {
   display:block;
   margin:auto;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  text-align: justify;
 }
 
 
